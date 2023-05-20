@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> F2 Contest-2 may</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+  <h1>Filter ui cards via their profession</h1>
+
+  <div class="filter-section">
+    <label for="profession"></label>
+    <div>
+    <select id="profession">
+      <option value="">Select a profession</option>
+      <option value="developer">Developer</option>
+      <option value="admin">Admin</option>
+       <option value="admin">All</option>
+    </select></div>
+    <div id="user-list">
+
+    </div>
+    <button onclick="filterUsers()">Filter</button>
+  </div>
+
+  <div class="add-user-section">
+    <h2>Add a new user</h2>
+    <div class="add-user">
+    <input type="text" id="name">
+    <input type="text" id="age">
+    <select id="newProfession">
+      <option value="">Select a profession</option>
+      <option value="developer">Developer</option>
+      <option value="admin">Admin</option>
+    </select>
+  </div>
+   
+    <button onclick="addUser()">Add User</button>
+  
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

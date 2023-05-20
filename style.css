@@ -1,0 +1,54 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+select{
+  background-color: black;
+  color: white;
+}
+
+select, input{
+  background-color: black;
+  color: white;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+    /* display: flex; */
+    /* border: 2px solid black; */
+  }
+  
+  .add-user-section {
+    margin-bottom: 20px;
+  }
+  
+  .user-card {
+    border: 1px solid #ccc;
+    /* background-color: aqua; */
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .add-user-section{
+    display: flex;
+    flex-direction: column;
+  
+  }
+ button{
+  width: fit-content;
+  margin: 10px 0;
+ }
+
+
+  /* .add-user{
+    display: flex;
+  } */
+
+
